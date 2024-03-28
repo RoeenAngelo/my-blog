@@ -6,11 +6,11 @@ import React, { useContext } from "react";
 import styles from "./themeToggle.module.css";
 
 const ThemeToggle = () => {
-  const { theme } = useContext(ThemeContext);
+  const { theme, toggle } = useContext(ThemeContext);
 
   console.log(theme);
   return (
-    <div className={styles.container}>
+    <div onClick={toggle} className={styles.container}>
       <Image src="/moon.png" alt="moon pic" width={14} height={14} />
       <div className={styles.ball}></div>
       <Image src="/sun.png" alt="sun pic" width={14} height={14} />
