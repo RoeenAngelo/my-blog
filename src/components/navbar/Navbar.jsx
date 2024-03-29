@@ -17,9 +17,15 @@ const Navbar = () => {
       <div className={styles.logo}>Roeen Angelo</div>
       <div className={styles.links}>
         <ThemeToggle />
-        <Link href="/">Home</Link>
-        <Link href="/">Contact</Link>
-        <Link href="/">About</Link>
+        <Link className={styles.link} href="/">
+          Home
+        </Link>
+        <Link className={styles.link} href="/">
+          Contact
+        </Link>
+        <Link className={styles.link} href="/">
+          About
+        </Link>
         <AuthLinks />
       </div>
     </div>
