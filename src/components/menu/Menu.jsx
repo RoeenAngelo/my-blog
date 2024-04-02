@@ -10,6 +10,64 @@ const Menu = () => {
       <h1 className={styles.title}>Most Popular</h1>
       <div className={styles.items}>
         <Link href="/" className={styles.item}>
+          <div className={styles.textContainer}>
+            <span className={`${styles.category} ${styles.travel}`}>
+              Travel
+            </span>
+            <h3 className={styles.postTitle}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </h3>
+            <div className={styles.detail}>
+              <span className={styles.username}>Roeen Angelo</span>
+              <span className={styles.date}> - 04/02/2024</span>
+            </div>
+          </div>
+        </Link>
+        <Link href="/" className={styles.item}>
+          <div className={styles.textContainer}>
+            <span className={`${styles.category} ${styles.culture}`}>
+              Culture
+            </span>
+            <h3 className={styles.postTitle}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </h3>
+            <div className={styles.detail}>
+              <span className={styles.username}>Roeen Angelo</span>
+              <span className={styles.date}> - 04/02/2024</span>
+            </div>
+          </div>
+        </Link>
+        <Link href="/" className={styles.item}>
+          <div className={styles.textContainer}>
+            <span className={`${styles.category} ${styles.food}`}>Food</span>
+            <h3 className={styles.postTitle}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </h3>
+            <div className={styles.detail}>
+              <span className={styles.username}>Roeen Angelo</span>
+              <span className={styles.date}> - 04/02/2024</span>
+            </div>
+          </div>
+        </Link>
+        <Link href="/" className={styles.item}>
+          <div className={styles.textContainer}>
+            <span className={`${styles.category} ${styles.fashion}`}>
+              Fashion
+            </span>
+            <h3 className={styles.postTitle}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </h3>
+            <div className={styles.detail}>
+              <span className={styles.username}>Roeen Angelo</span>
+              <span className={styles.date}> - 04/02/2024</span>
+            </div>
+          </div>
+        </Link>
+      </div>
+      <h2 className={styles.subtitle}>Chosen by the author</h2>
+      <h1 className={styles.title}>Author's Picks</h1>
+      <div className={styles.items}>
+        <Link href="/" className={styles.item}>
           <div className={styles.imageContainer}>
             <Image className={styles.image} src="/p1.jpeg" alt="" fill />
           </div>
