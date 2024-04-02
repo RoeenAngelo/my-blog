@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import MenuCategories from "../menuCategories/MenuCategories";
 import MenuPosts from "../menuPost/MenuPosts";
 import styles from "./menu.module.css";
 
@@ -12,14 +13,7 @@ const Menu = () => {
       <MenuPosts withImage={false} />
       <h2 className={styles.subtitle}>Discover by topic</h2>
       <h1 className={styles.title}>Categories</h1>
-      <div className={styles.categoryList}>
-        <Link
-          href="/blog?cat=style"
-          className={`${styles.categoryItem} ${styles.style}`}
-        >
-          Style
-        </Link>
-      </div>
+      <MenuCategories />
       <h2 className={styles.subtitle}>Chosen by the author</h2>
       <h1 className={styles.title}>Author's Picks</h1>
       <MenuPosts withImage={true} />
