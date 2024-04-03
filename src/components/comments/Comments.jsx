@@ -32,6 +32,55 @@ const Comments = () => {
               <span className={styles.date}>04/03/2024</span>
             </div>
           </div>
+          <p className={styles.description}>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Perspiciatis voluptatem necessitatibus adipisci cum ea id itaque
+            debitis, maiores quae ratione?
+          </p>
+        </div>
+      </div>
+      <div className={styles.comments}>
+        <div className={styles.comment}>
+          <div className={styles.user}>
+            <Image
+              src="/p1.jpeg"
+              alt=""
+              width={50}
+              height={50}
+              className={styles.image}
+            />
+            <div className={styles.userInfo}>
+              <span className={styles.username}>Roeen</span>
+              <span className={styles.date}>04/03/2024</span>
+            </div>
+          </div>
+          <p className={styles.description}>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Perspiciatis voluptatem necessitatibus adipisci cum ea id itaque
+            debitis, maiores quae ratione?
+          </p>
+        </div>
+      </div>
+      <div className={styles.comments}>
+        <div className={styles.comment}>
+          <div className={styles.user}>
+            <Image
+              src="/p1.jpeg"
+              alt=""
+              width={50}
+              height={50}
+              className={styles.image}
+            />
+            <div className={styles.userInfo}>
+              <span className={styles.username}>Roeen</span>
+              <span className={styles.date}>04/03/2024</span>
+            </div>
+          </div>
+          <p className={styles.description}>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Perspiciatis voluptatem necessitatibus adipisci cum ea id itaque
+            debitis, maiores quae ratione?
+          </p>
         </div>
       </div>
     </div>
