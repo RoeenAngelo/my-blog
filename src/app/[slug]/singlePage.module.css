@@ -1,0 +1,23 @@
+.container {
+}
+
+.infoContainer {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.userImageContainer {
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+
+.imageContainer {
+  flex: 1;
+  position: relative;
+}
