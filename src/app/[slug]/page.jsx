@@ -24,7 +24,26 @@ const SinglePage = () => {
         </div>
       </div>
       <div className={styles.content}>
-        <div className={styles.post}></div>
+        <div className={styles.post}>
+          <div className={styles.description}>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
+              ipsa accusamus, officia minima iusto neque consequuntur mollitia
+              quas nostrum eaque!
+            </p>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
+              ipsa accusamus, officia minima iusto neque consequuntur mollitia
+              quas nostrum eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
+              ipsa accusamus, officia minima iusto neque consequuntur mollitia
+              quas nostrum eaque!
+            </p>
+          </div>
+        </div>
         <Menu />
       </div>
     </div>
