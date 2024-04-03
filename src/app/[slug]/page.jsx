@@ -11,7 +11,7 @@ const SinglePage = () => {
           <h1 className={styles.title}>Lorem ipsum dolor sit.</h1>
           <div className={styles.user}>
             <div className={styles.userImageContainer}>
-              <Image src="/p1.jpeg" className={styles.image} alt="" fill />
+              <Image src="/p1.jpeg" className={styles.avatar} alt="" fill />
             </div>
             <div className={styles.userTextContainer}>
               <span className={styles.username}>Roeen</span>

@@ -11,13 +11,46 @@
   flex: 1;
 }
 
+.title {
+  font-size: 64px;
+  margin-bottom: 50px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 .userImageContainer {
   height: 50px;
   width: 50px;
   position: relative;
 }
 
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userTextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: var(--softTextColor);
+}
+
+.username {
+  font-size: 20px;
+  font-weight: 500;
+}
+
 .imageContainer {
   flex: 1;
   position: relative;
+  height: 350px;
+}
+
+.image {
+  object-fit: cover;
 }
