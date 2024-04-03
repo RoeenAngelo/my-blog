@@ -1,3 +1,4 @@
+import Comments from "@/components/comments/Comments";
 import Menu from "@/components/menu/Menu";
 import Image from "next/image";
 import React from "react";
@@ -42,6 +43,9 @@ const SinglePage = () => {
               ipsa accusamus, officia minima iusto neque consequuntur mollitia
               quas nostrum eaque!
             </p>
+          </div>
+          <div className={styles.comments}>
+            <Comments />
           </div>
         </div>
         <Menu />
