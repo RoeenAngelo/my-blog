@@ -6,7 +6,8 @@ import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
 
 const WritePage = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
+  const [value, setValue] = useState("");
   return (
     <div className={styles.container}>
       <input type="text" placeholder="Title" />
@@ -27,6 +28,12 @@ const WritePage = () => {
             </button>
           </div>
         )}
+        <ReactQuill
+          theme="bubble"
+          value={value}
+          onChange={setValue}
+          placeholder="Share a story"
+        />
       </div>
     </div>
   );
