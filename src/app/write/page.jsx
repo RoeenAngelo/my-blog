@@ -2,6 +2,8 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./writePage.module.css";
+import ReactQuill from "react-quill";
+import "react-quill/dist/quill.snow.css";
 
 const WritePage = () => {
   const [open, setOpen] = useState(true);
