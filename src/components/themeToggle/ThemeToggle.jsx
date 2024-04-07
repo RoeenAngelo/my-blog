@@ -8,7 +8,6 @@ import styles from "./themeToggle.module.css";
 const ThemeToggle = () => {
   const { theme, toggle } = useContext(ThemeContext);
 
-  console.log(theme);
   return (
     <div
       onClick={toggle}
