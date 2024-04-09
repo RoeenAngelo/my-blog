@@ -1,12 +1,22 @@
 "use client";
 
 import { signIn, useSession } from "next-auth/react";
+import { useRouter } from "next/navigation";
 import React from "react";
 import styles from "./loginPage.module.css";
 
 const LoginPage = () => {
   const { data, status } = useSession();
+  const router = useRouter();
+
   console.log(data, status);
+  if (status === "loading") {
+    return <div className={styles.loading}>Loading...</div>;
+  }
+
+  if (status === "loading") {
+    router.push("/");
+  }
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
