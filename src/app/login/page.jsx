@@ -6,7 +6,7 @@ import styles from "./loginPage.module.css";
 
 const LoginPage = () => {
   const { data, status } = useSession();
-
+  console.log(data, status);
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
